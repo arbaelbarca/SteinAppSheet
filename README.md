@@ -5,6 +5,8 @@ Tech Stack
 - MVVM
 - LiveData
 - Hilt
+- ViewBinding
+- Coroutine
 - Retrofit & OkhttpClient
 - Filter Recyclerview
 
