@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -9,19 +10,62 @@
         android:id="@+id/edSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
         android:background="@drawable/bg_rounded_gray"
         android:drawableStart="@drawable/ic_baseline_search_24"
         android:drawablePadding="@dimen/_10sdp"
         android:hint="Search"
-        android:padding="@dimen/_10sdp"
-        android:textColor="@color/black" />
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp" />
+
+    <LinearLayout
+        android:id="@+id/llFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edSearch"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="#F8F5F5"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_7sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_7sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:text="Filter Data"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/btnFilterDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_rounded_green"
+            android:drawablePadding="@dimen/_8sdp"
+            android:gravity="center"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:text="Filter"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:drawableStartCompat="@drawable/ic_baseline_filter_alt_24" />
+
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvListSheet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edSearch" />
+        android:layout_below="@+id/llFilter" />
 
     <ProgressBar
         android:id="@+id/pbList"

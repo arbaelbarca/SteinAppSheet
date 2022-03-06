@@ -26,7 +26,8 @@
                 android:layout_weight="1"
                 android:text="Komoditas"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_13sdp" />
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvItemDateSheet"
@@ -60,6 +61,7 @@
                 android:layout_weight="1"
                 android:gravity="center|start"
                 android:text="Kota : "
+                android:textColor="@color/text_color_gray"
                 android:textSize="@dimen/_10sdp" />
 
             <TextView
@@ -88,6 +90,7 @@
                 android:layout_weight="1"
                 android:gravity="center|start"
                 android:text="Provinsi : "
+                android:textColor="@color/text_color_gray"
                 android:textSize="@dimen/_10sdp" />
 
             <TextView
@@ -115,6 +118,7 @@
                 android:layout_weight="1"
                 android:gravity="center|start"
                 android:text="Size : "
+                android:textColor="@color/text_color_gray"
                 android:textSize="@dimen/_10sdp" />
 
             <TextView
@@ -141,7 +145,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_10sdp"
             android:gravity="center"
-            android:text="Price" />
+            android:text="Price"
+            android:textColor="@color/text_color_gray" />
 
         <TextView
             android:id="@+id/tvItemPriceSheet"

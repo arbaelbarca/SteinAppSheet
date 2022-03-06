@@ -4,9 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/drawable/bg_rounded_gray.xml" value="0.177" />
+        <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/drawable/bg_rounded_green.xml" value="0.177" />
+        <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/drawable/ic_baseline_filter_alt_24.xml" value="0.177" />
+        <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.177" />
         <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/layout/activity_main.xml" value="0.28125" />
         <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/layout/fragment_sheet_home.xml" value="0.28125" />
+        <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/layout/layout_dialog_filter.xml" value="0.25" />
         <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/layout/layout_item_sheet.xml" value="0.28125" />
+        <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/layout/layout_item_text_filter.xml" value="0.22905982905982905" />
+        <entry key="..\:/data arba new/As project/SteinSheetApp/app/src/main/res/layout/layout_rv_text_filter.xml" value="0.22905982905982905" />
       </map>
     </option>
   </component>
